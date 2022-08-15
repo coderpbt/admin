@@ -1,0 +1,224 @@
+@media only screen and (min-width: 1921px) {
+    div#content-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1439px) {
+    header#wrapper {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    div#accordionSidebar {
+        max-width: 17%;
+    }
+    .nav-bar-main {
+        padding-left: 25px;
+    }
+    div#content-wrapper {
+        max-width: 83%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .profile-cradit-card-grid {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 3fr 7px 9fr;
+        grid-template-columns: 3fr 9fr;
+        grid-gap: 7px;
+        -webkit-box-align: self-start;
+            -ms-flex-align: self-start;
+                align-items: self-start;
+    }
+    .cradit-card .cradit-inner-grid {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 15px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+
+    div#body-content-main {
+        padding: 20px;
+    }
+    .low-cradit-info {
+        border-top: 2px solid #f2f2f4;
+        padding: 10px;
+        padding-top: 30px;
+    }
+    .info-tab-content {
+        padding: 5px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .nav-bar-main {
+        padding-left: 0px;
+    }
+    .nav-bar-main ul > li a {
+        font-size: 10px;
+        line-height: 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .nav-bar-main ul > li a > small {
+        right: 15px;
+        top: 15px;
+    }
+    ul.child-dropdown-nav > li > a {
+        font-size: 8px !important;
+    }
+    .header-logo a img {
+        width: 90px;
+        height: auto;
+    }
+    .header-logo {
+        padding-left: 15px;
+    }
+    header#wrapper {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    div#accordionSidebar {
+        max-width: 15%;
+    }
+    div#content-wrapper {
+        max-width: 85%;
+    }
+    .herader-top-bar {
+        padding-right: 15px;
+    }
+    .profile-cradit-card-grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .cradit-card .cradit-inner-grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    div#body-content-main {
+        padding: 15px;
+    }
+    .blance-item h5 {
+        font-size: 15px;
+    }
+    .blance-item h5 > span {
+        font-size: 20px;
+    }
+    .b-nav-tab {
+        padding: 10px 8px;
+    }
+    .info-tab-content {
+        max-width: 95%;
+    }
+    .input-for-low-cradit {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+    }
+    .switch {
+        margin-right: 3px;
+    }
+    .email-info-switch span {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .profile-nav > a > span {
+        font-size: 14px;
+        line-height: 28px;
+        padding-left: 8px;
+        padding-right: 10px;
+    }
+    .profile-nav {
+        padding: 4px 5px;
+    }
+    ul.child-dropdown > li a {
+        font-size: 13px;
+        line-height: 26px;
+        color: #7d7d7e;
+        padding: 12px 10px;
+    }
+    ul.child-dropdown {
+        top: 18px;
+        min-width: 151px;
+        left: 1px;
+    }
+    ul.child-dropdown > li a.log_out {
+        font-size: 12px;
+    }
+    div#accordionSidebar {
+        max-width: 20%;
+    }
+    div#content-wrapper {
+        max-width: 80%;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .blance-item {
+        margin-right: 10px;
+    }
+    .blance-item h5 {
+        font-size: 12px;
+    }
+    .blance-item h5 > span {
+        font-size: 15px;
+    }
+    .cradit-card {
+        padding: 30px 30px;
+    }
+    .cradit-title h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .cradit-card span.cradit-single-item strong {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .cradit-card span.cradit-single-item small {
+        font-size: 15px;
+    }
+    .b-nav-tab {
+        padding: 5px 5px;
+        font-size: 14px;
+    }
+    .info-content {
+        padding-top: 30px;
+        display: none;
+    }
+    .herader-top-bar {
+        min-height: 75px;
+    }
+}
+
+@media all and (max-width: 413px) {
+    .nav-bar-main ul > li a > small {
+        right: 10px;
+    }
+    .header-logo a img {
+        width: 70px;
+    }
+    .header-logo {
+        padding-left: 5px;
+    }
+}
+
+@media all and (max-width: 374px) {
+    .header-logo a img {
+        width: 48px;
+    }
+    .header-logo {
+        padding-bottom: 29px;
+    }
+    .blance-item {
+        display: none;
+    }
+    .herader-top-bar {
+        min-height: 65px;
+    }
+}
